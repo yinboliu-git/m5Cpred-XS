@@ -1,0 +1,9 @@
+！！！！！！
+这是关于get_data文件内各个.py文件的说明
+1、get_shap_sort     用shap对特征重要性进行排序
+2、get_shap_value.py     shap排序过后进行train训练，并选择最优shap
+3、get_seled_values.py   对最优shap再次使用格点搜索进行参数搜索
+4、 get_data.py      获得数据，可以选择是否获得psnp、psdp数据 ！！！！！需要在改变物种时重新设置
+5、param_data        包含所有可能需要用到的参数 ！！！！！需要在改变物种时重新设置
+6、print_data    是绘图函数，同时返回独立测试集的各个评价指标
+7、get_seled_psdp_psnp.py    格点搜索可以对psdp和psnp进行特征选择等等
