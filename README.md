@@ -8,10 +8,12 @@ Data include all data set for three species.
 --feature_encodeing :
   Open source code from i-Learn is used
 
--- fscore_mrmr:
+-- fscore_mrmr
+  
   
 -- main :
 The main prediction codes are included
+
 ----- all_for.py:
 For overall training
 
